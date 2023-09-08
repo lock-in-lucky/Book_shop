@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: '微软雅黑', 'Times New Roman', Times, serif;
+}
+
+.navi_head {
+    height: 50px;
+    background-color: #000000;
+}
+
+.navi_body {
+    overflow: hidden;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.9);
+    transition: height ease 0.5s;
+}
+
+.navi_body:hover {
+    height: 300px;
+}
+
+.navi_head>div>span {
+    width: 150px;
+    text-align: center;
+    height: 300px;
+    display: inline-block;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    vertical-align: top;
+}
+
+.navi_head>div>span>p a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.navi_head>div>span>p a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+.navi_title {
+    font-size: 16px;
+    line-height: 50px;
+    margin-top: 0;
+}
+
+.navi_head>div>span:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+#Main {
+    width: 600px;
+    margin: 50px auto;
+    height: 400px;
+}
+
+.con {
+    width: 500px;
+    height: 360px;
+    float: left;
+    margin: 0px 10px;
+    position: relative;
+    box-shadow: 3px 3px 10px #666;
+    overflow: hidden;
+}
+
+.con img {
+    width: 500px;
+    height: 360px;
+}
+
+.con span {
+    width: 248px;
+    height: 390px;
+    background: #333;
+    position: absolute;
+    left: -500px;
+    top: 0px;
+    filter: Alpha(opacity=80);
+    -moz-opacity: 0.8;
+    opacity: 0.8;
+    padding: 20px;
+    -webkit-transition: left 0.5s ease;
+}
+
+.con span h1 {
+    height: 30px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    left: -500px;
+    -webkit-transition: left 1s ease;
+}
+
+.con span p {
+    line-height: 25px;
+    font-size: 14px;
+    color: #fff;
+    position: relative;
+    left: -500px;
+    -webkit-transition: left 1s ease;
+}
+
+.con:hover span {
+    left: 0px;
+}
+
+.con:hover span h1 {
+    left: 0px;
+}
+
+.con:hover span p {
+    left: 0px;
+}

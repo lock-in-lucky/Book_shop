@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins", sans-serif;
+}
+
+body{
+	display: flex;/*将盒子变得可伸缩性*/
+	justify-content: center;/*将弹性盒子里的东西中央弹性对齐*/
+	align-items: center;/*将弹性 <div> 元素的所有项目的居中对齐：*/
+	background-color:#16384c; 
+}
+.box{
+	position:relative;
+	height: 600px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;/*使弹性盒子的内容自动换行*/
+	padding: 30px;
+}
+.box .xbox{
+	margin-top: 100px;
+	position: relative;
+	max-width: 300px;
+	height: 215px;
+	background:#fff;
+	margin-top:30px 10px;
+	padding:20px 15px;
+	display: flex;
+	flex-direction: column;/*当网页少于max—width时就会让图片向下延展；*/
+	box-shadow: 0 5px 202px rgba(0,0,0,0.5);/*让盒子的不透明度为50%*/
+	transform: .3s ease-in-out;/*规定了图片动画的时间以及方式*/
+}
+.box .xbox:hover{
+	height:420px;/*规定的鼠标悬浮时所产生的动画样式；*/
+}
+.box .xbox .imgBx{
+	position: relative;/*相对于图片的定位做出背景盒子*/
+	width: 260px;
+	height: 260px;
+	top: -60px;
+	left: 20px;/*规定了背景颜色以及背景位置*/
+	display: flex;
+	flex-direction:column;
+}

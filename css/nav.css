@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background-color: #000000;
+    color: #fff;
+    font-family: '微软雅黑', 'Times New Roman', Times, serif;
+}
+
+.navi_head {
+    height: 50px;
+    background-color: #000000;
+}
+
+.navi_body {
+    overflow: hidden;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.9);
+    transition: height ease 0.5s;
+}
+
+.navi_body:hover {
+    height: 300px;
+}
+
+.navi_head>div>span {
+    width: 150px;
+    text-align: center;
+    height: 300px;
+    display: inline-block;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    vertical-align: top;
+}
+
+.navi_head>div>span>p a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.navi_head>div>span>p a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+.navi_title {
+    font-size: 16px;
+    line-height: 50px;
+    margin-top: 0;
+}
+
+.navi_head>div>span:hover {
+    background: rgba(255, 255, 255, 0.2);
+}

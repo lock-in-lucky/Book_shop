@@ -1,0 +1,328 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.navi_head {
+	height: 50px;
+}
+
+.navi_body {
+	overflow: hidden;
+	height: 50px;
+	background-image: linear-gradient(to right, #000000, #000000, #000000, #000000bf, #444444, #949494);
+	transition: height ease 0.8s;
+}
+
+.navi_body:hover {
+	height: 300px;
+}
+
+.navi_head>div>span {
+	width: 120px;
+	text-align: center;
+	height: 300px;
+	display: inline-block;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	font-size: 14px;
+	vertical-align: top;
+}
+
+.navi_head>div>span>p a {
+	color: rgb(255 255 255);
+	text-decoration: none;
+}
+
+.navi_head>div>span>p a:hover {
+	color: rgb(0, 0, 0);
+	text-decoration: underline;
+}
+
+.navi_title {
+	font-size: 16px;
+	line-height: 50px;
+	margin-top: 0;
+}
+
+.navi_head>div>span:hover {
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.cl-zong {
+	width: 100%;
+}
+
+.zhu-img>img {
+	display: flex;
+	width: 100%;
+	height: 900px;
+	opacity: 90%;
+	margin-left: px;
+	margin: 0 auto;
+	z-index: -1;
+}
+
+.zhu-img {
+	text-align: center;
+}
+
+.zhu-img-wen {
+	position: relative;
+	top: -650px;
+	font-family: "叶根友特楷简体", sans-serif;
+	color: #ffffff;
+	border-top: 0px #ffffff solid;
+	border-bottom: 3px #ffffff solid;
+}
+
+.body-wen1 {
+	width: 14px;
+	height: 200px;
+	border: 3px black solid;
+	font-size: 16px;
+	padding: 30px;
+	margin-left: 140px;
+}
+
+.body-wen1>span {
+	border: 1px green solid;
+}
+
+.ge-img img {
+	width: 400px;
+	height: 200px;
+}
+
+
+.ge-img {
+	width: 1000px;
+	height: 350px;
+	background: #dbdbdb5c;
+	float: right;
+	position: relative;
+	right: 240px;
+	top: -310px;
+	border-radius: 10% 10% 10% 10%;
+}
+
+.ge-img img {
+	width: 230px;
+	height: 200px;
+}
+
+/*主体排版文段部分*/
+.body-wen2>h3 {
+	position: relative;
+	margin-top: 200px;
+	margin-left: 240px;
+	font-size: 30px;
+}
+
+.wen2-1>img {
+	width: 600px;
+	height: 400px;
+	position: relative;
+	margin-top: 0px;
+	margin-left: 100px;
+	border-radius: 10% 10% 10% 10%;
+}
+
+.wen2-1>h2 {
+	position: relative;
+	margin-top: -400px;
+	margin-left: 850px;
+	font-size: 47px;
+}
+
+.wen2-1>p {
+	position: relative;
+	width: 600px;
+	height: 300px;
+	margin-top: 40px;
+	margin-left: 800px;
+	font-size: 24px;
+	font-family: "宋体";
+}
+
+/*2*/
+.wen2-2>h2 {
+	position: relative;
+	top: 200px;
+	margin-left: 130px;
+	font-size: 47px;
+}
+
+.wen2-2>p {
+	position: relative;
+	width: 600px;
+	height: 600px;
+	top: 240px;
+	left: 130px;
+	font-size: 24px;
+	font-family: "宋体";
+}
+
+.wen2-2>img {
+	width: 600px;
+	height: 400px;
+	position: relative;
+	top: -480px;
+	left: 800px;
+	border-radius: 10% 10% 10% 10%;
+}
+
+/*3*/
+.wen2-3>img {
+	width: 600px;
+	height: 400px;
+	position: relative;
+	margin-top: -430px;
+	margin-left: 120px;
+	border-radius: 10% 10% 10% 10%;
+}
+
+.wen2-3>h2 {
+	position: relative;
+	margin-top: -310px;
+	margin-left: 800px;
+	font-size: 32px;
+}
+
+.wen2-3>p {
+	position: relative;
+	width: 600px;
+	height: 300px;
+	margin-top: 40px;
+	margin-left: 800px;
+	font-size: 24px;
+	font-family: "宋体";
+}
+
+.wen2-3>h3 {
+	position: relative;
+	display: block;
+	/* width: 800px; */
+	height: 100px;
+	/* margin-top: -200px; */
+	margin-left: 120px;
+	font-size: 26px;
+}
+
+.wen2-4>p {
+	position: relative;
+	width: 1200px;
+	/* height: 300px; */
+	/* margin-top: 40px; */
+	margin-left: 200px;
+	font-size: 24px;
+	font-family: "宋体";
+	line-height: 58px;
+	letter-spacing: 5px;
+}
+
+.wen2-4>h3 {
+	position: relative;
+	display: block;
+	/* width: 800px; */
+	height: 100px;
+	/* margin-top: -200px; */
+	margin-left: 120px;
+	font-size: 50px;
+	text-shadow: 2px 2px 2px rgb(201, 199, 199);
+}
+
+/*底部代码*/
+.di img {
+	width: 100%;
+	margin: 0px auto;
+	height: 800px;
+	position: relative;
+	/* margin-left: 240px; */
+	margin-top: 180px;
+	border-radius: 2% 2% 2% 2%;
+}
+
+.di-1 p {
+
+	width: 600px;
+	height: 150px;
+	font-size: 36px;
+	text-align: center;
+	line-height: 150px;
+	color: black;
+	font-family: "黑体";
+	position: relative;
+	margin-top: -550px;
+	margin-left: 500px;
+	z-index: 1;
+}
+
+.bg-bom {
+	width: 600px;
+	height: 200px;
+	position: absolute;
+	margin-top: -20px;
+	margin-left: 500px;
+	background: #9b9b9b;
+	z-index: 1;
+	opacity: 50%;
+	border-radius: 90px 50px;
+}
+
+.a3 {
+	width: 1510px;
+	height: 120px;
+	border: 2px solid;
+	border-color: #000000;
+	background-color: #000000;
+	/* float: left; */
+	z-index: 9999;
+	/* border-right-width: 460px; */
+	/* margin-left: -300px; */
+	margin-top: 500px;
+}
+
+.a31 {
+	width: 50%;
+	height: 70px;
+	margin: auto;
+	margin-top: 40px;
+}
+
+.a31 span {
+	display: block;
+	margin-left: 320px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+/* body {
+	zoom: 0.8;
+	-moz-transform: scale(0.8);
+	-moz-transform-origin: 0 0;
+} */
+
+#myBtn {
+	display: none;
+	/* 默认隐藏 */
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color: rgb(0, 0, 0);
+	/* 设置背景颜色，你可以设置自己想要的颜色或图片 */
+	color: white;
+	/* 文本颜色 */
+	cursor: pointer;
+	border-radius: 5px;
+	width: 49px;
+	height: 51px;
+	/* 圆角 */
+}
+
+#myBtn:hover {
+	background-color: rgb(188, 187, 187);
+}

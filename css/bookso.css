@@ -1,0 +1,143 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navi_head {
+    height: 50px;
+}
+
+.navi_body {
+    overflow: hidden;
+    height: 50px;
+    background-image: linear-gradient(to right, #000000, #bfbfbf);
+    transition: height ease 0.8s;
+}
+
+.navi_body:hover {
+    height: 300px;
+}
+
+.navi_head>div>span {
+    width: 120px;
+    text-align: center;
+    height: 300px;
+    display: inline-block;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    vertical-align: top;
+}
+
+.navi_head>div>span>p a {
+    color: rgb(255 255 255);
+    text-decoration: none;
+}
+
+.navi_head>div>span>p a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+.navi_title {
+    font-size: 16px;
+    line-height: 50px;
+    margin-top: 0;
+}
+
+.navi_head>div>span:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.a {
+    height: 1200px;
+    width: 100%;
+    border-color: black;
+    margin: auto;
+}
+
+.a2 {
+    width: 99%;
+    height: 1080px;
+    border-color: purple;
+}
+
+.a21 {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #ffffff;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(../图片/11.jpg);
+}
+
+.a22 {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-left: 300px;
+    margin-top: 140px;
+    border: 1px solid black;
+}
+
+.a22 img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+.a23 {
+    width: 800px;
+    height: 300px;
+    margin-left: 200px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: -100px;
+}
+
+.a24 {
+    width: 65%;
+    height: 700px;
+    margin: auto;
+    margin-top: 20px;
+    border: #333333 solid 1px;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 20%);
+    background-color: white;
+}
+
+.a241 {
+    width: 90%;
+    height: 280px;
+    margin: auto;
+    margin-top: 20px;
+    border-bottom: 1px solid #333333;
+}
+
+.a242 {
+    width: 90%;
+    height: 280px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.a3 {
+    width: 99%;
+    height: 120px;
+    border: 2px solid;
+    border-color: black;
+    background-color: black;
+    margin-top: 100px;
+}
+
+.a31 {
+    width: 50%;
+    height: 70px;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid black;
+}
+
+.a31 span {
+    display: block;
+    margin-left: 320px;
+    color: #FFFFFF;
+    font-weight: bold;
+}

@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "华文细黑";
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+img {
+    width: 150px;
+    height: 190px;
+}
+
+
+
+.navi_head {
+    height: 50px;
+}
+
+.navi_body {
+    overflow: hidden;
+    height: 50px;
+    background-image: linear-gradient(to right, #000000, #000000, #000000, #000000bf, #444444, #949494);
+    transition: height ease 0.8s;
+}
+
+.navi_body:hover {
+    height: 300px;
+}
+
+.navi_head>div>span {
+    width: 120px;
+    text-align: center;
+    height: 300px;
+    display: inline-block;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    vertical-align: top;
+}
+
+.navi_head>div>span>p a {
+    color: rgb(255 255 255);
+    text-decoration: none;
+}
+
+.navi_head>div>span>p a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+.navi_title {
+    font-size: 16px;
+    line-height: 50px;
+    margin-top: 0;
+}
+
+.navi_head>div>span:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+#divz {
+    width: 90%;
+
+}
+
+.divt {
+    top: 80px;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 10px 10px 20px 10px rgb(213, 213, 213);
+}
+
+.divt_1 {
+    margin: 0 auto;
+    position: absolute;
+    top: 15%;
+    left: 6%;
+}
+
+.divt:hover {
+    transform: scale(1.2);
+    transition: all .5s;
+}
+
+.divt_1>h2 {
+    margin: 0 auto;
+    position: absolute;
+    top: 0px;
+    /* left: 6%; */
+    /* float: right; */
+    margin-left: 156px;
+}
+
+.divt_1>p {
+    margin-top: 50px;
+    width: 700px;
+    float: right;
+    margin-left: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: rgb(80, 80, 156);
+}
+
+.divt2 {
+    top: 140px;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 10px 10px 20px 10px rgb(213, 213, 213);
+}
+
+.divt2:hover {
+    transform: scale(1.2);
+    transition: all .5s;
+}
+
+
+
+.divt3 {
+    top: 220px;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 10px 10px 20px 10px rgb(213, 213, 213);
+}
+
+.divt3:hover {
+    transform: scale(1.2);
+    transition: all .5s;
+}
+
+.divt4 {
+    top: 300px;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 10px 10px 20px 10px rgb(213, 213, 213);
+}
+
+.divt4:hover {
+    transform: scale(1.2);
+    transition: all .5s;
+}
+
+
+.divt5 {
+    top: 360px;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 10px 10px 20px 10px rgb(213, 213, 213);
+}
+
+.divt5:hover {
+    transform: scale(1.1);
+    transition: all .5s;
+}
+
+
+.divt6 {
+    top: 420px;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 10px 10px 20px 10px rgb(213, 213, 213);
+}
+
+.divt6:hover {
+    transform: scale(1.1);
+    transition: all .5s;
+}
+
+.divt7 {
+    top: 480px;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 10px 10px 20px 10px rgb(213, 213, 213);
+}
+
+.divt6:hover {
+    transform: scale(1.1);
+    transition: all .5s;
+}
+
+.divt8 {
+    top: 520px;
+    width: 70%;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#myBtn {
+    display: none;
+    /* 默认隐藏 */
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgb(0, 0, 0);
+    /* 设置背景颜色，你可以设置自己想要的颜色或图片 */
+    color: white;
+    /* 文本颜色 */
+    cursor: pointer;
+    border-radius: 5px;
+    width: 49px;
+    height: 51px;
+    /* 圆角 */
+}
+
+#myBtn:hover {
+    background-color: rgb(188, 187, 187);
+}

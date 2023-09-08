@@ -1,0 +1,72 @@
+*{
+	margin:0;padding:0;font-family: "Poppins", sans-serif;
+}
+}
+body{
+	display: flex; /*弹性盒子*/
+	justify-content: center;/*水平向上居中*/
+	align-items:center;/*垂直方向居中*/
+	background-color:black;/*整个网页背景颜色*/ 
+}
+.box{
+	position: relative;/*绝对定位：相对定位*/
+	height: 600px;
+	width: 100%;
+	display: flex; /*弹性盒子*/
+	justify-content: center;/*水平向上居中*/
+	align-items:center;/*垂直方向居中*/
+	flex-wrap:wrap;/*弹性盒子在必要时换行*/
+	padding:30px;
+}
+.box .xbox{
+	margin-top: 100px;
+	position: relative;/*给盒子和小盒子添加绝对定位*/
+	max-width: 300px;/*最大宽度限制*/
+	height: 215px;
+	background:#fff;/*给小盒子添加白色背景*/
+	margin-top:30px;
+	margin-right:10px;
+	padding-top: 20px;
+	padding-top:15px;
+	display: flex;
+	flex-direction: column;/*将小盒子一垂直显示，如同一个列一样*/
+	box-shadow: 0 5px 202px rgb(0,0,0,0,0.5);/*给小盒子添加阴影效果*/
+	transition: .3s ease-in-out;/*过渡动画时间为0.3秒规定开始较慢的动画效果*/
+}
+.box .xbox:hover{
+    height: 420px;
+}	/* 在鼠标悬浮时可以加大背部小盒子大小以达到显示文字的效果*/
+
+.box .xbox .imgbox{
+	position: relative;
+	width:260px;
+	height: 260px;
+	top: -60px;
+	left: 20px;/*纠正图片位置*/
+	z-index:1;/*使图片浮动在表面上不被盒子隐藏*/
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.box .xbox .imgbox img{
+	max-width: 100%;
+	border-radius:4px;
+
+}
+
+.box .xbox .jieshao{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s ease-in-out;
+}
+
+.box .xbox:hover .jieshao{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: .3s;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-ch">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>未知社区 | 搜索页面</title>
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="icon" href="img/title-1.png">
+</head>
+
+<body>
+    <div>
+        <div class="navi_body">
+            <div class="navi_head">
+                <div style="width:80%; margin-left:auto; margin-right:auto;">
+                    <span>
+                        <p class="navi_title">未知社区</p>
+                        <p><a href="">&nbsp;</a></p>
+                        <p><a href="index.html">首页</a></p>
+                        <p><a href="">&nbsp;</a></p>
+
+                        <p><a href="search.html">搜索</a></p>
+                        <p><a href="">&nbsp;</a></p>
+                    </span>
+                    <span>
+                        <p class="navi_title">推荐</p>
+                        <p><a href="">&nbsp;</a></p>
+                        <p><a href="column.html">书籍专栏</a></p>
+                        <p><a href="">&nbsp;</a></p>
+                        <p><a href="author column.html">作者专栏</a></p>
+                    </span>
+                    <span>
+                        <p class="navi_title">宣传</p>
+                        <p><a href="">&nbsp;</a></p>
+                        <p><a href="publicize.html">读书日海报</a></p>
+                        <p><a href="">&nbsp;</a></p>
+                        <p><a href=""></a></p>
+                    </span>
+                    <span>
+                        <p class="navi_title">关于我们</p>
+                        <p><a href="">&nbsp;</a></p>
+                        <p><a href="about.html">关于我们</a></p>
+                        <p><a href="">&nbsp;</a></p>
+                        <p><a href="feedback.html">问题反馈</a></p>
+                    </span>
+                    <span>
+                        <p class="navi_title">加入我们</p>
+                        <p><a href="">&nbsp;</a></p>
+                        <p><a href="dlul.html">登录</a></p>
+                        <p><a href="">&nbsp;</a></p>
+                        <p><a href="dlul.html">注册</a></p>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="app">
+        <!-- 搜索框 -->
+        <section class="searchBox">
+            <div class="clock">
+                <p id="year"></p>/
+                <p id="month"></p>/
+                <p id="day"></p>&nbsp;&nbsp;
+                <p id="hour"></p>
+                <p id="minute"></p>
+                <p id="second"></p>
+            </div>
+            <div class="inputBox">
+                <input type="text" placeholder="输入书籍、作者" id="searchInput" v-model="queryString"
+                    v-on:keyup.enter="search">
+                <img src="img/搜索框.png" alt="" @click="search">
+            </div>
+        </section>
+    </div>
+</body>
+
+
+<script>
+    window.onload = function () {//用于在网页加载完毕后立刻执行的操作
+        // 时钟代码
+        let year_text = document.getElementById("year");
+        let month_text = document.getElementById("month");
+        let day_text = document.getElementById("day");
+        let hour_text = document.getElementById("hour");
+        let minute_text = document.getElementById("minute");
+        let second_text = document.getElementById("second");
+        let timer = setInterval(function () {
+            let date = new Date();
+            let year = date.getFullYear();
+            let month = date.getMonth();
+            let day = date.getDate();
+            let hour = date.getHours();
+            let minute = date.getMinutes();
+            let second = date.getSeconds();
+            year_text.innerHTML = year;
+            month_text.innerHTML = (month + 1);
+            day_text.innerHTML = day;
+            hour_text.innerHTML = hour + ":";
+            minute_text.innerHTML = minute + ":";
+            second_text.innerHTML = second;
+        });
+
+        // 设置input框自动获取焦点
+        let searchInput = document.getElementById("searchInput");
+        searchInput.focus();
+    };
+</script>
+
+</html>

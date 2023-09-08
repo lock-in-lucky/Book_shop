@@ -1,0 +1,167 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.navi_head {
+    height: 50px;
+}
+
+.navi_body {
+    overflow: hidden;
+    height: 50px;
+    background-image: linear-gradient(to right, #000000, #000000, #000000, #000000bf, #444444, #949494);
+    transition: height ease 0.8s;
+}
+
+.navi_body:hover {
+    height: 300px;
+}
+
+.navi_head>div>span {
+    width: 120px;
+    text-align: center;
+    height: 300px;
+    display: inline-block;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    vertical-align: top;
+}
+
+.navi_head>div>span>p a {
+    color: rgb(255 255 255);
+    text-decoration: none;
+}
+
+.navi_head>div>span>p a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+.navi_title {
+    font-size: 16px;
+    line-height: 50px;
+    margin-top: 0;
+}
+
+.navi_head>div>span:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+
+.logo {
+    width: 600px;
+    height: 600px;
+    position: relative;
+    top: 150px;
+    left: 6px;
+
+}
+
+.login-left {
+    background-color: #e7e7e7;
+    width: 40%;
+    height: 1000px;
+    text-align: left;
+    /* border-right: 0.1px solid #000; */
+}
+
+
+.txt {
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+}
+
+.leir {
+    margin: 0 auto;
+    width: 60%;
+    position: relative;
+    z-index: 999;
+    top: 0;
+}
+
+
+.login-right {
+    width: 60%;
+    height: 1000px;
+    text-align: center;
+    float: right;
+    margin-top: -1100px;
+}
+
+.title {
+    padding-bottom: 10px;
+    margin-right: 120px;
+}
+
+.title-span {
+    font-size: 24px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.user {
+    margin: 0 auto;
+    width: 40%;
+    width: 700px;
+    height: 500px;
+    margin-top: 190px;
+    top: 35px;
+    right: 190px;
+    border-radius: 10px;
+}
+
+.user_header {
+    height: 82px;
+    text-align: center;
+    line-height: 82px;
+}
+
+.user_middle {
+    margin-right: 170px;
+}
+
+
+.user_middle .inpu {
+    width: 320px;
+    padding: 15px 60px 15px 14px;
+    margin: 10px 0 20px 35px;
+    /* border-radius: 26px; */
+    border-width: 0px 0px 1px 0px;
+    border-color: white white black white;
+    outline: none;
+}
+
+
+.user_middle .submit {
+    width: 380px;
+    padding: 15px 60px 15px 60px;
+    border-radius: 26px;
+    margin: 25px 0 20px 35px;
+    border-width: 0px 0px 0.5px 0px;
+    border-color: white white black #ffffff;
+
+}
+
+.tub {
+    height: 45px;
+    width: 45px;
+}
+
+#table_n {
+    margin-left: 125px
+}
+
+.table_ty {
+    FONT-WEIGHT: 520;
+    margin-left: 80px
+}
+
+.span_on {
+    float: left;
+    margin-top: 50px;
+    margin-left: 225px;
+}

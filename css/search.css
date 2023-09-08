@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navi_head {
+    height: 50px;
+}
+
+.navi_body {
+    overflow: hidden;
+    height: 50px;
+    background-image: linear-gradient(to right, #1c254e, #212c5a, #212c5a, #ece9e4, #ece9e4);
+    transition: height ease 0.8s;
+}
+
+.navi_body:hover {
+    height: 300px;
+}
+
+.navi_head>div>span {
+    width: 120px;
+    text-align: center;
+    height: 300px;
+    display: inline-block;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    vertical-align: top;
+}
+
+.navi_head>div>span>p a {
+    color: rgb(255 255 255);
+    text-decoration: none;
+}
+
+.navi_head>div>span>p a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+.navi_title {
+    font-size: 16px;
+    line-height: 50px;
+    margin-top: 0;
+}
+
+.navi_head>div>span:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+body {
+    background-image: url("../img/搜索框.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+
+/* 中间搜索框 */
+.searchBox {
+    width: 60%;
+    min-width: 400px;
+    height: 30vh;
+    margin: 10vh auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Monoton";
+}
+
+.clock>p {
+    user-select: none;
+}
+
+.inputBox {
+    width: 60%;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 0 15px;
+    border-radius: 20px;
+}
+
+.inputBox>input {
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0 10px 0 0;
+    flex: 1;
+    height: 44px;
+    color: #242323;
+    font-size: 16px;
+}
+
+.inputBox>input::placeholder {
+    color: #242323;
+    font-size: 16px;
+}
+
+.inputBox>img {
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+.inputBox>img:hover {
+    cursor: pointer;
+}

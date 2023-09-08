@@ -1,0 +1,138 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navi_head {
+    height: 50px;
+}
+
+.navi_body {
+    overflow: hidden;
+    height: 50px;
+    background-image: linear-gradient(to right, #3d1b68, #623988, #8662a2, #a292b9);
+    transition: height ease 0.8s;
+}
+
+.navi_body:hover {
+    height: 300px;
+}
+
+.navi_head>div>span {
+    width: 120px;
+    text-align: center;
+    height: 300px;
+    display: inline-block;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    vertical-align: top;
+}
+
+.navi_head>div>span>p a {
+    color: rgb(255 255 255);
+    text-decoration: none;
+}
+
+.navi_head>div>span>p a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+.navi_title {
+    font-size: 16px;
+    line-height: 50px;
+    margin-top: 0;
+}
+
+.navi_head>div>span:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.a {
+    width: 100%;
+    height: 5500px;
+    margin: auto;
+    /* border: 1px solid #000000; */
+}
+
+.a1 {
+    width: 100%;
+    height: 550px;
+    margin: auto;
+}
+
+.a1 img {
+    width: 100%;
+    height: 700px;
+}
+
+.a2 {
+    width: 75%;
+    height: 800px;
+
+    margin: auto;
+}
+
+.a21 {
+    width: 100%;
+    height: 500px;
+    margin-top: 60px;
+}
+
+.a3 {
+    width: 100%;
+    height: 900px;
+
+    margin: auto;
+    margin-top: 50px;
+}
+
+.a4 {
+    width: 100%;
+    height: 3300px;
+    margin: auto;
+    /* border: 1px solid #00aa7f; */
+}
+
+.a5 {
+    width: 100%;
+    height: 180px;
+    background-color: #8662A2;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.a7 {
+    width: 99.7%;
+    margin: auto;
+    height: 120px;
+    border: 2px solid;
+    border-color: #9a76d7;
+    background-color: #9a76d7;
+}
+
+
+#myBtn {
+    display: none;
+    /* 默认隐藏 */
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #9a76d7;
+    /* 设置背景颜色，你可以设置自己想要的颜色或图片 */
+    color: white;
+    /* 文本颜色 */
+    cursor: pointer;
+    border-radius: 5px;
+    width: 49px;
+    height: 51px;
+    /* 圆角 */
+}
+
+#myBtn:hover {
+    background-color: rgb(188, 187, 187);
+}
